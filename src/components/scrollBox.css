@@ -9,8 +9,7 @@
   height: 100%;
   overflow-y: hidden;
   overflow-x: scroll;
-  padding-bottom: 17px;
-  box-sizing: content-box;
+  box-sizing: border-box;
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
 }
@@ -21,7 +20,5 @@
 
 .scroll-box__container {
   height: 100%;
-  border-radius: 5px;
-  position: relative;
   display: inline-flex;
 }
