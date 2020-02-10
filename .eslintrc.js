@@ -30,7 +30,8 @@ module.exports = {
 	},
 	'plugins': [
 		'react',
-		'prettier'
+		'prettier',
+		'react-hooks'
 	],
 	'rules': {
 		'linebreak-style': [
@@ -56,6 +57,7 @@ module.exports = {
 		'react/jsx-max-depth': ['off'],
 		'react/jsx-props-no-spreading': ['off'],
 		'react/forbid-prop-types': ['off'],
-		'react/jsx-sort-props': ['off']
+		'react/jsx-sort-props': ['off'],
+		'react/no-array-index-key': ['off']
 	}
 }
